@@ -1,0 +1,98 @@
+/*body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+*/
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/assets/static/cats.jpg');
+  min-height: 100%;
+  opacity: 0.7;
+
+}
+.bgimg-2 {
+  background-image: url('/assets/static/brains.png');
+  min-height: 100%;
+  opacity: 0.8;
+
+}
+.bgimg-3 {
+  background-image: url('/assets/static/sunflower2.jpg');
+  min-height: 100%;
+  opacity: 0.8;
+
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 5px;
+  font-size: 75px;
+  color: #FFFFFF;
+}
+
+p, h3 {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.blog_bg
+{
+  font-size: 35px;
+  color: #c969c9;
+  background-color: #FFFFFF;
+}
+.about_me
+{
+  width: 50%;
+  font-size: 20px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+span {
+  font-size: 50px;
+  background-color: #FFFFFF;
+  color: #c969c9;
+}
+.bg_3 {
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  color: #00FF00;
+}
+
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #FF69B4 !important;
+}
